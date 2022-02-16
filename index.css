@@ -1,0 +1,116 @@
+/*  applies to whole page  */
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+}
+
+/*   */
+.h {
+    margin-top: 120px;
+}
+
+/* logo design */
+.logo {
+    margin: 50px 210px 0 180px;
+    background: transparent;
+
+}
+
+/* main outer full box */
+.mainbox {
+    /* width: 60%; */
+}
+
+/* h1 first line */
+.first {
+
+    color: rgba(200, 156, 155, 255);
+    font-weight: 200;
+    font-size: 200%;
+    text-indent: 0%;
+    letter-spacing: 20px;
+
+
+}
+
+/* h1 second line  */
+.second {
+
+    color: rgba(69, 60, 61, 255);
+    font-weight: bold;
+    text-indent: 0%;
+    letter-spacing: 20px;
+    font-size: 200%;
+}
+
+/* h1 last line  */
+.last {
+    text-indent: 0%;
+    color: rgba(66, 57, 58, 255);
+    font-size: 200%;
+    letter-spacing: 20px;
+
+
+}
+
+/* paragraph */
+.content {
+
+    display: block;
+    color: rgba(201, 170, 169, 255);
+    font-weight: normal;
+    display: inline;
+    line-height: 180%;
+
+}
+
+/* div left box*/
+.leftbox {
+
+    width: 56%;
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    /* height: 800px; */
+    float: left;
+    background-image: url("images/bg-pattern-desktop.svg");
+
+
+}
+
+/* email label */
+input[type=email] {
+    border-color: rgba(255, 248, 249, 255);
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 100%;
+    padding: 15px 15px;
+    margin: 40px 0;
+    color: rgba(201, 170, 169, 255);
+
+}
+
+/*email  function key*/
+input[type=">"] {
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 70px;
+    padding: 5px 5px;
+    margin: 0 0;
+    text-align: center;
+    font-size: x-large;
+    color: rgba(255, 235, 234, 255);
+    background-color: rgba(240, 154, 155, 255);
+
+}
+
+/*  div second box  */
+.imagebox {
+    padding: none;
+    box-sizing: border-box;
+    margin: none;
+    width: 44%;
+    /* height: 200px; */
+    float: 40px;
+    float: right;
+}
