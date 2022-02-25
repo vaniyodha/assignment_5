@@ -1,24 +1,31 @@
 /*  applies to whole page  */
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: white;
+    background-color: transparent;
+
 }
 
-/*   */
+/* heading top */
 .h {
-    margin-top: 120px;
+    margin-top: 110px;
 }
 
 /* logo design */
 .logo {
-    margin: 50px 210px 0 180px;
-    background: transparent;
+    background-image: url("images/logo.svg");
+    background-repeat: no-repeat;
+    margin: 100px 130px;
+    background-color: transparent;
 
 }
 
 /* main outer full box */
 .mainbox {
-    /* width: 60%; */
+  width: 100vw;
+  height: 100vh;
 }
 
 /* h1 first line */
@@ -29,7 +36,7 @@
     font-size: 200%;
     text-indent: 0%;
     letter-spacing: 20px;
-
+    background-color: transparent;
 
 }
 
@@ -41,6 +48,7 @@
     text-indent: 0%;
     letter-spacing: 20px;
     font-size: 200%;
+    background-color: transparent;
 }
 
 /* h1 last line  */
@@ -49,68 +57,74 @@
     color: rgba(66, 57, 58, 255);
     font-size: 200%;
     letter-spacing: 20px;
-
+    
+    margin-bottom:10%;
 
 }
 
 /* paragraph */
+p.content {
+    margin-top: 10%;
+  }
 .content {
-
-    display: block;
-    color: rgba(201, 170, 169, 255);
+    color:rgba(201, 170, 169, 255);
     font-weight: normal;
-    display: inline;
     line-height: 180%;
+    background-color: transparent;
 
 }
 
 /* div left box*/
 .leftbox {
 
-    width: 56%;
+    width: 56vw;
     margin: none;
     padding: none;
     box-sizing: border-box;
-    /* height: 800px; */
+    height: 100vh;
     float: left;
     background-image: url("images/bg-pattern-desktop.svg");
+    background-color: transparent;
 
 
 }
 
 /* email label */
 input[type=email] {
-    border-color: rgba(255, 248, 249, 255);
     box-sizing: border-box;
     border-radius: 20px;
-    width: 100%;
+    width: 85%;
+    height:50px;
     padding: 15px 15px;
     margin: 40px 0;
     color: rgba(201, 170, 169, 255);
-
+  border-color:rgba(228,217,218,255) ;
+  display: inline-block;
 }
-
+/*
 /*email  function key*/
-input[type=">"] {
-    box-sizing: border-box;
-    border-radius: 20px;
-    width: 70px;
-    padding: 5px 5px;
-    margin: 0 0;
-    text-align: center;
-    font-size: x-large;
-    color: rgba(255, 235, 234, 255);
-    background-color: rgba(240, 154, 155, 255);
-
-}
-
+.arrow {
+    content: url('images/icon-arrow.svg');
+    width: 80px;
+    height: 50px;
+    background-color:rgba(240,152,151,225) ;
+   border-radius: 20px;
+   font-weight: 20px;
+   display: inline-block;
+   margin-left: -15%;
+   margin-bottom:-4%;
+  }
+  
 /*  div second box  */
 .imagebox {
     padding: none;
     box-sizing: border-box;
     margin: none;
-    width: 44%;
-    /* height: 200px; */
+    width: 44vw;
+    height: 100vh;
     float: 40px;
     float: right;
 }
+
+
+  
